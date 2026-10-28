@@ -58,7 +58,7 @@ Open `notebooks/healthcare_insurance_analysis1.ipynb` in VS Code or Jupyter Note
 ## Limitations and Ethical Considerations 
 The dataset's collection method and representativeness are not fully verifiable from the available source description. The currency and units of recorded charges are also unspecified. The analysis is descriptive and does not prove causation. Other variables may contribute to observed differences. Findings should not be treated as personalised medical advice or definitive evidence for insurance pricing decisions. Before redistributing the dataset through a public repository, its licence and sharing permissions should be checked. 
 ## Links 
-- **GitHub repository:** To be added. 
-- **Live Streamlit dashboard:** To be added. 
+- **GitHub repository:** [follow link](https://github.com/boooddi/healthcare-insurance-analysis1)
+- **Live Streamlit dashboard:** [follow link](https://healthcare-insurance-analysis1-juxdgjmwrqd46sfcjmbc9i.streamlit.app/) 
 ## Conclusion 
 This project demonstrates how Python can be used to clean, analyse and visualise healthcare insurance data. The results identify patterns in recorded charges and show how data analysis can support evidence-based investigation while recognising the limitations of the dataset.
