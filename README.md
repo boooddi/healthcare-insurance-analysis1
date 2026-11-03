@@ -80,7 +80,7 @@ healthcare-insurance-analysis1/
 - `app.py`: Contains the Streamlit dashboard application.
 - `requirements.txt`: Lists the Python packages required to run the project.
 - `README.md`: Provides project information and setup instructions.
-``` 
+
 ## How to Run the Project 
 
 ### 1. Clone or download the project 
@@ -138,3 +138,4 @@ AI assistance was used to support learning and development; it did not replace c
 
 ## Conclusion 
 This project demonstrates how Python can be used to clean, analyse and visualise healthcare insurance data. The results identify patterns in recorded charges and show how data analysis can support evidence-based investigation while recognising the limitations of the dataset.
+

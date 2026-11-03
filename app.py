@@ -21,8 +21,16 @@ st.write(
 
 
 @st.cache_data
+@st.cache_data
 def load_data():
-    return pd.read_csv("data/insurance_cleaned.csv")
+    try:
+        return pd.read_csv("data/insurance_cleaned.csv")
+    except FileNotFoundError:
+        st.error("The cleaned dataset could not be found.")
+        st.stop()
+    except pd.errors.ParserError:
+        st.error("The cleaned dataset could not be read correctly.")
+        st.stop()
 
 
 df = load_data()
